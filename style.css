@@ -1,0 +1,35 @@
+section {
+  /*background-color: red;*/
+  height: 700px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-id {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  font-size: 16px;
+}
+.slide-id::after{
+  content: "\00a0/14";
+  top: 0px;
+  position: absolute;
+  font-size: 16px;
+
+}
+.slide-name{
+  font-size: 16px;
+  left: 0px;
+  position: absolute;
+  font-size: 16px;
+}
+
+.interf{
+  display: flex;
+}
+.error{
+  position: absolute;
+}
